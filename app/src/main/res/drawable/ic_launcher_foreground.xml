@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Card (Tilted left) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-12">
+        <path
+            android:fillColor="#4A5568"
+            android:pathData="M34,26 h40 a6,6 0 0,1 6,6 v48 a6,6 0 0,1 -6,6 h-40 a6,6 0 0,1 -6,-6 v-48 a6,6 0 0,1 6,-6 z" />
+    </group>
+
+    <!-- Foreground Card (Main Photo Card) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="4">
+        <!-- Card Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M34,26 h40 a6,6 0 0,1 6,6 v48 a6,6 0 0,1 -6,6 h-40 a6,6 0 0,1 -6,-6 v-48 a6,6 0 0,1 6,-6 z" />
+        <!-- Card Inner Image Area -->
+        <path
+            android:fillColor="#3B82F6"
+            android:pathData="M38,30 h32 a3,3 0 0,1 3,3 v32 a3,3 0 0,1 -3,3 h-32 a3,3 0 0,1 -3,-3 v-32 a3,3 0 0,1 3,-3 z" />
+        <!-- Mountains in Photo -->
+        <path
+            android:fillColor="#60A5FA"
+            android:pathData="M35,68 L48,52 L57,62 L64,54 L73,65 L73,68 Z" />
+        <!-- Sun in Photo -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M46,41 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+        <!-- Bottom Action Bar on Card -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M40,73 h28 a2,2 0 0,1 2,2 v1 a2,2 0 0,1 -2,2 h-28 a2,2 0 0,1 -2,-2 v-1 a2,2 0 0,1 2,-2 z" />
+    </group>
+
+    <!-- Left Swipe Indicator (Red Trash Badge) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M25,54 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <!-- Trash Icon inside Red Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,49 h6 v1 h-6 z M33,52 h4 v6 h-4 z M31,50 h8 v1 h-8 z" />
+
+    <!-- Right Swipe Indicator (Green Sparkle/Check Badge) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M63,54 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <!-- Checkmark Icon inside Green Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,54 l3,3 l7,-7 l1.4,1.4 l-8.4,8.4 l-4.4,-4.4 z" />
+</vector>

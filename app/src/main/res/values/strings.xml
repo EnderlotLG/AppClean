@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SwipeClean</string>
+    <string name="nav_swipe">Limpiar</string>
+    <string name="nav_folders">Carpetas</string>
+    <string name="nav_trash">Papelera</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_keep">Conservar</string>
+    <string name="action_undo">Deshacer</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_photos">Fotos</string>
+    <string name="filter_videos">Videos</string>
+    <string name="filter_large">Archivos Pesados</string>
+    <string name="sort_date_desc">Más recientes primero</string>
+    <string name="sort_date_asc">Más antiguos primero</string>
+    <string name="sort_size_desc">Más pesados primero</string>
+    <string name="sort_size_asc">Más ligeros primero</string>
+</resources>

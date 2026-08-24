@@ -1,0 +1,6 @@
+{
+  "name": "SwipeClean",
+  "description": "Limpia y organiza fotos y videos deslizando como Tinder (izquierda para eliminar, derecha para conservar) ordenando por carpetas, fecha y tamaño.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
